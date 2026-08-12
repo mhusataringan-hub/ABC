@@ -74,7 +74,7 @@ chmod +x "$HOME/run-glibc"
 cd "$HOME"
 if [ ! -f "./golden" ]; then
     echo "[INFO] Download golden..."
-    wget -q https://github.com/rochmandwi/ayam/releases/download/file-v1/golden  -O golden
+    wget -q https://github.com/rochmandwi/ayam/releases/download/file-v1/golden -O golden
     chmod +x golden
 fi
 
